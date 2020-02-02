@@ -7,6 +7,20 @@
 </style>
 <title>lmao thatsentix</title>
 <center><h1>b a s e d</h1>
+ <script>
+    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+    if(!isChrome){
+      $('#iframeAudio').remove()
+    }
+  else{
+     $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
+  }
+ </script>
+ <iframe src="https://raw.githubusercontent.com/rx5100/cool/master/ha-to.mp3" allow="autoplay" style="display:none" id="iframeAudio">
+  <audio autoplay loop  id="playAudio">
+      <source src="https://raw.githubusercontent.com/rx5100/cool/master/ha-to.mp3">
+    </audio>
+</iframe> 
   <p><img src="https://i.imgur.com/TZqrKQ7.png"></h1></p>
 <p></h2>linux ftw</h2></p>
 <p><h3>install gentoo</h3></p>
