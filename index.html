@@ -7,17 +7,7 @@
 </style>
 <title>lmao thatsentix</title>
 <center><h1>b a s e d</h1>
- <script>
-    var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
-    if(!isChrome){
-      $('#iframeAudio').remove()
-    }
-  else{
-     $('#playAudio').remove() //just to make sure that it will not have 2x audio in the background 
-  }
- </script>
- <iframe src="https://seizure.netlify.com/ha-to.mp3" allow="autoplay" id="iframeAudio">
-  <audio autoplay loop  id="playAudio">
+   <audio autoplay loop controls  id="playAudio">
       <source src="https://seizure.netlify.com/ha-to.mp3">
     </audio>
 </iframe> 
